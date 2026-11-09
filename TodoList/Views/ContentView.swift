@@ -74,7 +74,7 @@ struct ContentView: View {
                 }
                 .padding(24)
             }
-            .navigationTitle("ToDoi")
+            .navigationTitle("Focus List")
             .navigationBarTitleDisplayMode(.inline)
             .toolbarBackground(.hidden, for: .navigationBar)
             .toolbar {

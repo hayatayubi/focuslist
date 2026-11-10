@@ -1,17 +1,18 @@
-# FocusList
+# Focus List
 
-A simple, modern SwiftUI todo list app for iOS.
+A to-do list app for iPhone, written in SwiftUI.
 
 ## Features
 
-- Priorities: low, medium, and high
-- Categories: inbox, work, home, personal, and errands
-- Due dates and local notification reminders
-- Subtasks with progress tracking
-- Search, category filtering, completion toggles, and local persistence
+- Priorities: low, medium and high
+- Categories: work and home
+- Due dates, with local notification reminders
+- Subtasks, with progress tracking
+- Search and category filtering
+- Tasks are saved on the device
 
-## Run
+## Running it
 
-Open `TodoList.xcodeproj` in Xcode, choose an iPhone simulator, and run the `TodoList` scheme.
+Open `TodoList Codex.xcodeproj` in Xcode, pick an iPhone simulator and run the `TodoList` scheme. It needs iOS 17 or later.
 
-The app uses `UserDefaults` for local JSON persistence and `UserNotifications` for reminders.
+Tasks are stored as JSON in `UserDefaults`, and reminders use `UserNotifications`.
